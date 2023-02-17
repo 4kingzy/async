@@ -119,3 +119,9 @@ Promise.all([promise1, promise2])
 .then(res => console.log(res))
 .catch(err => console.log(err))
 .finally(() => console.log("Always executed"))
+
+/*MODULES */
+/*data.js*/
+export const ime = "Tutankamon";
+
+import {ime} from "data.js"
